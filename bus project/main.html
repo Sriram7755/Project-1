@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+ <head>   <title>
+    SECE BUSSY.IN
+    </title>
+    <style>
+        body{
+            background-image: url(icon/HEROSCREEN-01112021-RETRO-SCI-FI-8K.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    
+        }
+        .sri{
+        background-color:rgba(255, 255, 255, 0);
+        border-radius: 60px;
+        color: rgb(255, 255, 255);
+    border: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100px;
+padding: 15px;
+transition-duration: 1s;}
+.sri:hover{
+    background-color:rgb(255, 0, 111);
+    color: white;
+
+}
+
+
+.t{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+       
+    padding-left: 80px;
+    position: relative;
+    animation: forwards hlo;
+    animation-duration: 3s;
+    }
+  #s{
+    border: none;
+    border-radius: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    padding: 15px;
+    
+    transition-duration: 1s;
+    position: relative;
+    animation: forwards hlo;
+      animation-duration: 3s;
+  }
+  @keyframes hlo {
+    0%{
+    right: -10px;
+    }
+    100%{
+      right: 20px;
+    }
+    
+  }
+
+  .rm{
+    background-color: rgb(255, 157, 0);
+    padding: 50px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  }
+  .rs{
+    background-color: rgb(255, 157, 0);
+    padding: 50px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #box{
+    padding-right: 800px;
+  }
+
+  #con{
+
+border: none;
+border-radius: 30px;
+padding: 0px;
+width: 150px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    border: none;
+    outline: none;
+    color: #ffffff;
+    position: relative;
+    border-radius: 30px;
+z-index: 0;
+
+}
+#con::after{
+    content:"";
+    z-index:-1;
+    position: absolute;
+   
+height: 100%;
+background-color: hsl(0, 0%, 0%);  
+left:0;
+top: 0;
+border-radius: 30px;
+border-radius: 30px;
+padding: 0px;
+width: 150px;
+}
+
+#con::before{
+content: "";
+background: linear-gradient(
+45deg,#ff0000,#FFFB00,#7300ff,#00FFD5,#002BFF,#ff0000,
+#FF0000);
+position: absolute;
+top: -2px;
+left: -2px;
+background-size: 600%;
+z-index: -1;
+width: calc(100% + 1px);
+height: calc(100% + 1px);
+filter: blur(8px);
+
+animation: glowing 20s linear infinite;
+transition: opacity .3s ease-in-out;
+border-radius: 5px;
+opacity: 1;
+}
+
+@keyframes glowing{
+0%{
+    background-position: 0 0;
+}
+50%{
+    background-position: 400% 0;
+}
+100%{
+    background-position: 0 0;
+}
+}
+#con:hover::before{
+opacity: 1;
+}
+#con:hover::after{
+background: transparent;
+
+}
+
+.tri{
+    position: relative;
+    animation: forwards trip;
+    animation-duration: 3s;
+
+}
+ @keyframes trip {
+    0%{
+    left: -10px;
+    }
+    100%{
+      left: 20px;
+    }
+    
+ }
+
+
+    </style>
+    </head>
+
+    <body>
+
+      
+            <table><td>
+
+                <img src="icon/cropped-ai-generated-illustration-electric-tourist-bus-road-driving_441362-5385.avif" width="60px" style="border-radius: 100px;"></td>
+                
+                   <td> <button class="sri">  Home
+                    </button></td>
+                 <td style="padding-left: 60px;">  <a href="https://sece.ac.in/contact/"> <button class="sri">
+                        contact us
+                    </button></a></td>
+                  <td> <center style="padding-left: 950px;"><a href="C:\Users\srira\OneDrive\Desktop\Coding files\html files\project\login.html"> <button class="sri"> My Profile
+                    </button></a></center>
+                </td>       
+            
+            </table>
+
+        </header>
+        <div>
+            <pre class="t">
+                HAPPY JOURNEY!!!
+            <pre class="r" style="color: aqua;">
+         "Every journey begins with
+                  a single step onto a  bus."</pre>
+            </div>
+            <center>
+<div id="box">
+    <table class="tri">
+      <td style="padding-left: 60px;padding-top: 30px;">
+        <td class="rm">
+            SECE COLLEGE
+  </td><td >
+            <img src="icon/mobile-data.png" width="30px">
+        </td>
+        <td class="rs" id="to-location">
+        GANDHIPURAM
+
+        </td>
+        <td style="padding-left: 60px;padding-top: 30px;">
+       <img src="icon/next.png" width="60px" id="change-icon">
+        </td> 
+    </table>
+
+</div></center>
+<br>
+<br>
+<div style="padding-left: 250px;">
+    
+  <a href="con gandhi.html">  <button id="con">
+  <h2>  Confirm
+</h2></button></a>
+</div>
+<script src="java.js"></script>
+    </body>
